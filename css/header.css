@@ -1,0 +1,125 @@
+header{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: var(--Pallate-base-white);
+    border-bottom: 1px solid var(--Pallate-bluegray-ligth);
+}
+
+.header__top{
+    background-color: #1E293B;
+    align-self: stretch;
+}
+
+.header__actions{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    padding: 10px 0px;
+}
+
+.header__actions a{
+    color: var(--Pallate-base-white);
+    display: flex;
+    padding: 8px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    font-size: 14px;
+    
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.header__actions button{
+    color: var(--Pallate-base-white);
+    background-color: var(--Light-Utility-Primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    font-size: 14px;
+    
+    font-weight: 400;
+    line-height: 20px;
+
+    display: flex;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+
+    border-radius: 4px;
+}
+
+.header__bottom{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 24px 0;
+    width: 100%;
+}
+
+.header__search__category{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1 0 0;
+}
+
+.header__search__category button{
+    display: flex;
+    padding: 7px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px solid var(--Light-Utility-Primary);
+
+    color: var(--Light-Utility-Primary);
+    font-size: 14px;
+    
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.header__search{
+    display: flex;
+    align-items: flex-start;
+    gap: 0px;
+    flex: 1 0 0;
+    border-radius: 4px;
+    border: 1px solid var(--Light-Utility-Primary);
+}
+
+.header__search button{ 
+    display: flex;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--Light-Utility-Primary);
+    border-radius: 0 1px 1px 0;
+    color:var(--Pallate-base-white);
+}
+
+.header__search input{
+    display: flex;
+    padding: 6px 12px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    flex: 1 0 0;
+    border-radius: 4px 0 0 4px;
+    
+    font-size: 14px;
+    
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--Pallate-bluegray);
+}

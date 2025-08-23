@@ -1,0 +1,29 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+}
+
+.card__img img{
+    border-radius: 4px;
+}
+
+.card__description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.card__title{
+    color: var(--Light-Utility-Primary);
+}
+
+.card__description p{
+    color: var(--Pallate-bluegray);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
