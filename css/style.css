@@ -2,6 +2,7 @@
 @import url("./header.css");
 @import url("./card.css");
 @import url("./mainPage.css");
+@import url("./dropdown.css");
 
 :root{
     --Pallate-base-white: #FFF;
